@@ -1,0 +1,22 @@
+{
+  "name": "chatbot_nodejs",
+  "version": "1.0.0",
+  "description": "Chatbot videos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Albislan/Chatbot_NodeJs.git"
+  },
+  "author": "Albislan de Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Albislan/Chatbot_NodeJs/issues"
+  },
+  "homepage": "https://github.com/Albislan/Chatbot_NodeJs#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.50.0"
+  }
+}
