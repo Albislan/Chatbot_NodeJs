@@ -1,5 +1,5 @@
 const dialogflow = require('dialogflow');
-const configs = require('./dio_bot_videos');
+const configs = require('./digital-innovation-one');
 
 const sessionClient = new dialogflow.SessionsClient({
     projectId: configs.project_id,
