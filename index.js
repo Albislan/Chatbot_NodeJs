@@ -7,5 +7,5 @@ const bot = new TelegramBot(token, { polling: true });
 bot.on('message', function (msg) {
     const chatId = msg.chat.id;
     console.log(msg.text);
-    bot.sendMessage(chatId, 'Obrigado por sua mensagem');
+    bot.sendMessage(chatId, 'Obrigado por sua mensagem'); //mensagem simples devolvida a cada recebimento de mensagem//
 });
