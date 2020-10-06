@@ -23,7 +23,11 @@ async function sendMessage(chatId, message) {
 
     const responses = await sessionClient.detectIntent(request);
     const result = responses[0].queryResult;
-    console.log(JSON.stringify(result,null, 2));
+    return {
+        text: result.fulfillmentText,
+        intent: result.intent.displayName,
+        fields: result.parameters.fields
+    };
 };
 
-sendMessage('1293452458123', 'oi');
+module.exports.sendMessage = sendMessage;
